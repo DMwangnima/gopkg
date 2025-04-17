@@ -60,8 +60,9 @@ const (
 	HeaderTransPerfTRecvStart = "prs"
 	HeaderTransPerfTRecvEnd   = "pre"
 	// the connection peer will shutdown later,so it send back the header to tell client to close the connection.
-	HeaderConnectionReadyToReset = "crrst"
-	HeaderProcessAtTime          = "K_ProcessAtTime"
+	HeaderConnectionReadyToReset   = "crrst"
+	HeaderProcessAtTime            = "K_ProcessAtTime"
+	HeaderCascadingLinkInitialNode = "clin"
 )
 
 // key of acl token
